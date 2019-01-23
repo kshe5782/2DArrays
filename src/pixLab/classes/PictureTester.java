@@ -34,7 +34,7 @@ public class PictureTester
  
   public static void testZeroRed()
   {
-	  Picture arch = new Picture("arch.jpg");
+	  Picture arch = new Picture("Shmumpkin.jpg");
 	  arch.explore();
 	  arch.zeroRed();
 	  arch.explore();
@@ -98,7 +98,7 @@ public class PictureTester
     // and comment out the ones you don't want
     // to run
     //testZeroBlue();
-    //testZeroRed();
+    testZeroRed();
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
@@ -115,7 +115,7 @@ public class PictureTester
     //testCopy();
     //testEdgeDetection();
     //testEdgeDetection2();
-    testChromakey();
+    //testChromakey();
     //testEncodeAndDecode();
     //testGetCountRedOverValue(250);
     //testSetRedToHalfValueInTopHalf();

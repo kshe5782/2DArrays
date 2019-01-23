@@ -381,5 +381,13 @@ public class Picture extends SimplePicture
 	 	}
 	  }
 	  
-  }
+
+
+public void glitchArt()
+{
+
+	
+	
+}
+}
  // this } is the end of class Picture, put all new methods before this
