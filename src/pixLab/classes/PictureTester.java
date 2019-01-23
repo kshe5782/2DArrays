@@ -11,6 +11,9 @@ package pixLab.classes;
 import java.awt.Color;
 
 
+
+
+
 public class PictureTester
 {
   /** Method to test zeroBlue */
@@ -21,6 +24,19 @@ public class PictureTester
     beach.zeroBlue();
     beach.explore();
   }
+  public static void testSteganography()
+  {
+  	Picture source = new Picture ("Shmumpkin.jpg");
+  	Picture message = new Picture ("SOLJABOYGOSICKOMODE.jpg");
+  	
+  	source.explore();
+  	message.explore();
+  	source.hidePicture(message);
+  	source.explore();
+  	source.revealPicture();
+  	source.explore();
+  }
+  
   
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
@@ -97,8 +113,9 @@ public class PictureTester
     // uncomment a call here to run a test
     // and comment out the ones you don't want
     // to run
+	  testSteganography();
     //testZeroBlue();
-    testZeroRed();
+    //testZeroRed();
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
