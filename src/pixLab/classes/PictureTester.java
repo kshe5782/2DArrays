@@ -12,8 +12,6 @@ import java.awt.Color;
 
 
 
-
-
 public class PictureTester
 {
   /** Method to test zeroBlue */
