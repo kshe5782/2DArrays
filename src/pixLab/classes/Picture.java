@@ -404,7 +404,7 @@ public void revealPicture()
 			}
 			else if (pixels[row][col].getRed() > 0 && pixels[row][col].getRed() % 2 ==1)
 			{
-				pixels[row][col].setColor(Color.MAGENTA);
+				pixels[row][col].setColor(Color.RED);
 				
 			}
 		}
